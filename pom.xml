@@ -45,6 +45,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName> employee-management-project</finalName>
 	</build>
 	<repositories>
 		<repository>
