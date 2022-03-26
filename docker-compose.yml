@@ -8,16 +8,16 @@ services:
     ports:
         - "9090:9090"
     environment:
-       MYSQL_HOST: mysqldbb
+       MYSQL_HOST: mysqldbb1
        MYSQL_USER: root
        MYSQL_PASSWORD: root
        MYSQL_PORT: 3306
         
   mysqldb:
-    container_name: 'mysqldbb'
+    container_name: 'mysqldbb1'
     image: mysql
     volumes:
-       - C:\Users\alok kumar\Documents\volumestudent:/var/lib/mysql
+       - D:\volumes-emp
     ports:
         - "3307:3306"
     environment:
